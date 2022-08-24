@@ -73,6 +73,7 @@ namespace InterfaceExercise
                 suv.Build();
                 Console.ReadLine();
             }
+            
             Console.WriteLine();
             Console.WriteLine($"You selected: {userVehicle}");
 

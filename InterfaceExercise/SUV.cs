@@ -26,7 +26,7 @@ namespace InterfaceExercise
 
         internal void Build()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("You chose the SUV!");
         }
     }
 }
