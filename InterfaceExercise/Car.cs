@@ -23,9 +23,6 @@ namespace InterfaceExercise
             Console.WriteLine("The car is now in drive");
         }
 
-        internal void Build()
-        {
-            Console.WriteLine("You chose the car!");
-        }
+
     }
 }
