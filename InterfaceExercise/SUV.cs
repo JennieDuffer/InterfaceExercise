@@ -24,5 +24,9 @@ namespace InterfaceExercise
             Console.WriteLine("The SUV is now in drive");
         }
 
+        internal void Build()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -45,18 +45,38 @@ namespace InterfaceExercise
 
             foreach (var item in vehicles)
             {
-               
+
                 Console.WriteLine($" Make: {item.Make}, Model: {item.Model}");
                 item.Drive();
-;
+                ;
                 Console.WriteLine();
             }
 
             Console.WriteLine("Please select which vehicle you would like to drive:   ");
-            Console.ReadLine();
-            Console.WriteLine();
+            string userVehicle = Console.ReadLine();
 
-            
+            if (userVehicle.ToUpper() == "Lincoln")
+            {
+                var car1 = new Car();
+                car.Build();
+                Console.ReadLine();
+            }
+            else if (userVehicle.ToUpper() == "Ford")
+            {
+                var truck1 = new Truck();
+                truck.Build();
+                Console.ReadLine();
+            }
+            else if (userVehicle.ToUpper() == "Jeep")
+            {
+                var suv1 = new SUV();
+                suv.Build();
+                Console.ReadLine();
+            }
+            Console.WriteLine();
+            Console.WriteLine($"You selected: {userVehicle}");
+
+
 
             //Now, create objects of your 3 classes and give their members values;
             //Creatively display and organize their values
